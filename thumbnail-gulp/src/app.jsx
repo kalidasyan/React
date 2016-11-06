@@ -22,4 +22,4 @@ var element = React.createElement(ThumbnailList, options);
 
 //When we ask react to render this class, we will tell it
 //where to place the rendered element in the dom
-React.render(element, document.querySelector('.target'));
+React.render(element, document.querySelector('.container'));
